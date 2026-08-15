@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+body {
+  background-color: #b989b7;
+  font-size: 120%;
+}
+  
+.foto {
+  width: 16%;
+  border-radius: 60px 70px 40px 140px;
+  margin-top: 0.6%;
+  margin-left: 10%;
+  box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.3);
+} 
+
+.foto:hover {
+  transform: scale(1.1);
+}
+
+.gitHub {
+  float: right;
+  width: 6%;
+  
+}
+
+p {
+  visibility: hidden;
+  color: white;
+  text-align: justify;
+}
+  
+h1 {
+  text-align: center;
+  font-size: 42px;
+  color: #8f0b5c;
+  font-family: "Audiowide", sans-serif;
+  
+}
+
+h2 {
+  font-size: 42px;
+  color: #8f0b5c;
+  font-family: Arial, sans-serif;
+} 
+  
+.geral {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+  
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+  padding: 30px;
+  background-color: #c46cc2b9;
+  margin: 20px;
+  height: 60vh;
+  width: 26vw;
+  transition: all 0.4s ease-out;
+}
+  
+.card:hover {
+  transform: translateY(-8px);
+  cursor: pointer;
+}
+  
+@media screen and (max-width: 1024px){
+  body {
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px){
+    body {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  h1, h2 {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h1, h2 {
+    font-size: 150%;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  h1, h2 {
+    font-size: 100%;
+  }
+}
